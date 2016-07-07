@@ -3,3 +3,5 @@
 2016-7-7
 ##add a button
 点击button，弹出对话框，显示hello，github.
+##add a picctrl
+添加picture控件。
