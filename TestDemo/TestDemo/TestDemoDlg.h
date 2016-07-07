@@ -3,6 +3,7 @@
 //
 
 #pragma once
+#include "afxwin.h"
 
 
 // CTestDemoDlg ¶Ô»°¿ò
@@ -31,4 +32,5 @@ protected:
 	DECLARE_MESSAGE_MAP()
 public:
 	afx_msg void OnBnClickedButton1();
+	CStatic m_ctrlPic;
 };

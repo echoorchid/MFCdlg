@@ -57,6 +57,7 @@ CTestDemoDlg::CTestDemoDlg(CWnd* pParent /*=NULL*/)
 void CTestDemoDlg::DoDataExchange(CDataExchange* pDX)
 {
 	CDialogEx::DoDataExchange(pDX);
+	DDX_Control(pDX, IDC_PIC, m_ctrlPic);
 }
 
 BEGIN_MESSAGE_MAP(CTestDemoDlg, CDialogEx)
@@ -158,4 +159,5 @@ void CTestDemoDlg::OnBnClickedButton1()
 {
 	// TODO: Add your control notification handler code here
 	AfxMessageBox("hello,github!");
+	AfxMessageBox("hello,github2!");
 }
