@@ -63,6 +63,7 @@ BEGIN_MESSAGE_MAP(CTestDemoDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDC_BUTTON1, &CTestDemoDlg::OnBnClickedButton1)
 END_MESSAGE_MAP()
 
 
@@ -151,3 +152,10 @@ HCURSOR CTestDemoDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+void CTestDemoDlg::OnBnClickedButton1()
+{
+	// TODO: Add your control notification handler code here
+	AfxMessageBox("hello,github!");
+}
