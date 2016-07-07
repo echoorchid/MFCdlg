@@ -5,3 +5,4 @@
 点击button，弹出对话框，显示hello，github.
 ##add a picctrl
 添加picture控件。
+#test over
